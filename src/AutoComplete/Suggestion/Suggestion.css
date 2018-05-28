@@ -1,0 +1,46 @@
+.suggestion {
+  width: 100%;
+  height: 64px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.suggestion:hover {
+  background-color: #E0F6FE;
+}
+
+.suggestion-tag {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.suggestion-tag p {
+  width: 80px;
+  height: 2em;
+  margin: 16px auto;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2em;
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.48);
+}
+
+.suggestion small {
+  color: #838383;
+}
+
+#airport-tag {
+  background-color: #f2817f;
+}
+
+#city-tag {
+  background-color: #70B8F8;
+}
+
+#train-station-tag {
+  background-color: #9D9DBA;
+}
